@@ -1,0 +1,8 @@
+print("Hello,world!")
+print("人生苦短，我用 Python")
+print("分配147MB内存并尝试启动 Minecraft 的小伙纸")
+print("陈某某")
+print("黄某某")
+print("曹沙雕")
+print("刘大川")
+print("季不惠")
