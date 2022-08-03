@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>sun-frontend-lib</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <style>
+    pre {
+      filter: invert(85%) hue-rotate(180deg);
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Docs',
+      repo: 'https://github.com/MiaoSiyuan/Docs',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        placeholder: "搜索",
+        noData: '找不到结果!',
+        depth: 6,
+        hideOtherSidebarContent: true,
+        paths: [
+          "src/outline/introduction",
+          "src/outline/framework",
+          "src/quickStart/install",
+          "src/quickStart/use",
+          "src/coreFun/HTTP",
+          "src/coreFun/Storage",
+          "src/coreFun/Directive",
+          "src/coreFun/Icon",
+          "src/coreFun/Message",
+          "src/coreFun/Pipe",
+          "src/coreFun/Route",
+          "src/coreFun/Service",
+          "src/coreFun/Assets",
+          "src/coreFun/Utils",
+          "src/coreFun/Dictionary",
+          "src/coreFun/Validator",
+          "src/coreFun/Module",
+          "src/coreFun/Decorator",
+          "src/coreFun/Constant",
+          "src/coreFun/Api",
+          "src/coreFun/Class",
+          "src/coreFun/Function",
+          "src/expand/principle",
+          "src/expand/dev"
+        ]
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '失败',
+        successText: '成功'
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+</body>
+
+</html>
