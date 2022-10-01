@@ -1,5 +1,5 @@
 # 小学语文补充习题
-当前位置：[主页](https://miner233.github.io) - [CDA.net](https://miner233.github.io/cda) - 小学语文补充习题（部编版 - 2022 - 上下册 - 1~6年级）
+当前位置：[主页](https://miner233.github.io/cda/home) - [CDA.net](https://miner233.github.io/cda/app) - 小学语文补充习题（部编版 - 2022 - 上下册 - 1~6年级）
 
 部编版 - 2022 - 上下册 - 1~6年级
 ## 开始
