@@ -1,8 +1,4 @@
-# CDA.net
-当前位置：[主页](https://miner233.github.io) - CDA.net  
-
-CDA.net 网站
-## 开始
+# 浏览
 选择一项书籍，并开始浏览。部分书籍可能已列出但并未开放。
 * [小学语文补充习题（部编版 - 2022 - 上下册 - 1~6年级）](https://miner233.github.io/cda/wizard/ps/chinese/ministry_edition/supplementary_exercises/)
 * 小学语文练习与测试（部编版 - 2022 - 上下册 - 1~6年级）
