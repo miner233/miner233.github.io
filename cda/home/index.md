@@ -3,4 +3,6 @@
 <br>
 <h2>首页</h2>
 欢迎来到 CDA.net！<br>
-在底部导航栏中选择“浏览”选项卡或 <a href="https://miner233.github.io/cda">点击此处</a> 以开始浏览。
+<a href="https://miner233.github.io/cda">点击此处</a> 以开始浏览。  <br>
+
+©2022 Miner233. 保留部分权利
