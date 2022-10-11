@@ -4,7 +4,7 @@
 [返回查找方式选择页](https://miner233.github.io/cda/app)
 ### 筛选条件
 - 按学段
-  - 小学
+  - [小学](https://miner233.github.io/cda/wizard/ps/)
   - 初中
   - 高中
 - 按科目
