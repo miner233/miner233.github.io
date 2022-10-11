@@ -1,6 +1,6 @@
 ---
-name: 提出建议
-about: 新功能与已有功能的改进建议
+name: CDA.net 建议
+about: CDA.net App 及网页的新功能或已有功能的改进建议
 title: 请简短描述你的建议
 labels: 建议
 assignees: ''
