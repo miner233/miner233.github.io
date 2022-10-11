@@ -1,5 +1,5 @@
 ---
-name: 建议
+name: 提出建议
 about: 新功能与已有功能的改进建议
 title: 请简短描述你的建议
 labels: 建议
