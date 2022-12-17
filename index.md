@@ -11,7 +11,7 @@
 * 博客 - [立即前往](https://miner233.github.io/blog)
 
 ### 联系与讨论
-* Wiki 讨论区 - [立即前往](https://github.com/miner233/miner233.github.io/wiki/Talk)；Github 国内访问较不稳定，建议使用 Watt Toolkit（原 Steam++）等工具加速。
+* Github 讨论区 - [立即前往](https://github.com/miner233/miner233/discussions)；Github 国内访问较不稳定，建议使用 Watt Toolkit（原 Steam++）等工具加速。
 * 自己没事创建的 Discord 服务器 - [加入](https://discord.gg/NCYzqpdnbT)
 * 电子邮箱 - miaosiyuan123@outlook.com
 * Discord - Miner233#1734
