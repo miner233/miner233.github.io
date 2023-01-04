@@ -1,2 +1,2 @@
-# pre
-https://miner233.github.io/pre 预览网站存储库
+# miner233.github.io
+https://miner233.github.io/ 网站存储库
