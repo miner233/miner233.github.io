@@ -1,6 +1,14 @@
-# 竞赛C++STL与现代特性指北
+---
+tittle: C++ STL 与现代特性指北
+tags:
+  - OI
+---
+# C++ STL 与现代特性指北
 原作者：王泽溪（[GitHub](https://github.com/Z-Multiplier/)）
 
+基于 MIT License 共享。
+
+```
 MIT License
 
 Copyright (c) 2026 Z-Multiplier
@@ -22,6 +30,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+**以下是正文**
+
+------
 
 如你所见，这是一篇现代特性指北，为的就是解决你不会现代C++特性的问题，~~虽然大部分是STL~~，主要是想到哪写到哪，所以顺序可能不规则，建议使用目录索引
 
