@@ -19,7 +19,7 @@ tags:
 
 对于并查集数组 `dsu[]`，`dsu[i]` 表示元素 `i` 所在集合的根（存储下标），若该元素就是其所在集合的根，则存储它自己的下标。
 
-## 操作及实现
+## 操作
 
 并查集支持以下三种操作：`make_set` 建集、`find` 查找和 `union` 合并。
 
@@ -108,3 +108,41 @@ void make_set(){   // 建集
         return i;
     }
     ```
+
+## 实现
+以下是一个封装好的 DSU 模板。
+```cpp
+class dsu{
+    private:
+        int n, m;   // 总结点个数，当前连通块数量
+        vector<int> fa, siz;
+        dsu(int a, int b){
+            n=a; m=b;
+            fa.assign(n+5, -1);
+            siz.assign(n+5, 1);
+            for(int i=1; i<=n; i++) fa[i]=i;
+        }
+        bool dsu_find(int x){
+            return (fa[x]==x?x:fa[x]=dsu_find(fa[x]));
+        }
+        bool dsu_link(int a, int b){   // 将 a 所在的集合合并到 b 所在的集合
+            int fa1=dsu_find(a), fa2=dsu_find(b);
+            if(fa1==fa2) return false;
+            if(fa1>fa2) swap(fa1, fa2);
+            siz[fa2]+=siz[fa1];
+            fa[fa1]=fa[fa2];
+            m--;
+            return true;
+        }
+    public:
+        int size(){   // 获取连通块个数
+            return m;
+        }
+        bool find(int x){
+            return dsu_find(x);
+        }
+        bool link(int a, int b){
+            return dsu_link(a, b);
+        }
+};
+```
