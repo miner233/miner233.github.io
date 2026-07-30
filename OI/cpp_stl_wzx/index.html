@@ -2744,72 +2744,6 @@
   <a href="#_52" class="md-nav__link">
     <span class="md-ellipsis">
       
-        需要
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 插入方式是尾部还是两端，或是随机？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 尾部
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_53" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        不需要
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-lifo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 插入方式是随机插入还是LIFO？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 随机
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_54" class="md-nav__link">
-    <span class="md-ellipsis">
-      
         附录：常见的~升压~错误及原因
       
     </span>
@@ -5250,72 +5184,6 @@
   <a href="#_52" class="md-nav__link">
     <span class="md-ellipsis">
       
-        需要
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 插入方式是尾部还是两端，或是随机？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 尾部
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_53" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        不需要
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-lifo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 插入方式是随机插入还是LIFO？
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        - 随机
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_54" class="md-nav__link">
-    <span class="md-ellipsis">
-      
         附录：常见的~升压~错误及原因
       
     </span>
@@ -6543,26 +6411,27 @@
 <a id="__codelineno-59-4" name="__codelineno-59-4"></a>//1,2
 <a id="__codelineno-59-5" name="__codelineno-59-5"></a>//
 </code></pre></div></td></tr></table></div>
-<blockquote>
-<p>小知识
- 你知道为什么要返回ostream&amp;吗
- 这称为链式调用
- 由于<code>operator&lt;&lt;</code>返回了<code>out</code>，也即例子中的<code>cout</code>
- 运算过程就变成了
- <code>cout&lt;&lt;pii&lt;&lt;endl</code>
- <code>cout&lt;&lt;endl</code>，因为<code>cout&lt;&lt;pii</code>的运算返回值是<code>cout</code>
- <code>cout</code>
- 结束，这保证了输出流可以无限接数据</p>
-</blockquote>
+<div class="admonition note">
+<p class="admonition-title">小知识</p>
+<p>你知道为什么要返回ostream&amp;吗</p>
+<p>这称为链式调用</p>
+<p>由于<code>operator&lt;&lt;</code>返回了<code>out</code>，也即例子中的<code>cout</code></p>
+<p>运算过程就变成了
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-60-1">1</a></span>
+<span class="normal"><a href="#__codelineno-60-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-60-1" name="__codelineno-60-1"></a>cout&lt;&lt;pii&lt;&lt;endl
+<a id="__codelineno-60-2" name="__codelineno-60-2"></a>cout&lt;&lt;endl
+</code></pre></div></td></tr></table></div></p>
+<p>因为<code>cout&lt;&lt;pii</code>的运算返回值是<code>cout</code>，<code>cout</code>结束，这保证了输出流可以无限接数据</p>
+</div>
 <h3 id="_50">输入行为<a class="headerlink" href="#_50" title="Permanent link">&para;</a></h3>
 <p>与输出行为相似：</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-60-1">1</a></span>
-<span class="normal"><a href="#__codelineno-60-2">2</a></span>
-<span class="normal"><a href="#__codelineno-60-3">3</a></span>
-<span class="normal"><a href="#__codelineno-60-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-60-1" name="__codelineno-60-1"></a>istream&amp; operator&gt;&gt;(istream&amp; in,pair&lt;int,int&gt;&amp; pii){
-<a id="__codelineno-60-2" name="__codelineno-60-2"></a>    in&gt;&gt;pii.first&gt;&gt;pii.second;
-<a id="__codelineno-60-3" name="__codelineno-60-3"></a>    return in;
-<a id="__codelineno-60-4" name="__codelineno-60-4"></a>}
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-61-1">1</a></span>
+<span class="normal"><a href="#__codelineno-61-2">2</a></span>
+<span class="normal"><a href="#__codelineno-61-3">3</a></span>
+<span class="normal"><a href="#__codelineno-61-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-61-1" name="__codelineno-61-1"></a>istream&amp; operator&gt;&gt;(istream&amp; in,pair&lt;int,int&gt;&amp; pii){
+<a id="__codelineno-61-2" name="__codelineno-61-2"></a>    in&gt;&gt;pii.first&gt;&gt;pii.second;
+<a id="__codelineno-61-3" name="__codelineno-61-3"></a>    return in;
+<a id="__codelineno-61-4" name="__codelineno-61-4"></a>}
 </code></pre></div></td></tr></table></div>
 <p>效果类似，读入两个数后返回一个<code>pair&lt;int,int&gt;</code></p>
 <p>同样是链式调用</p>
@@ -6570,22 +6439,22 @@
 <h3 id="assert">assert<a class="headerlink" href="#assert" title="Permanent link">&para;</a></h3>
 <p><code>assert</code>位于<code>&lt;cassert&gt;</code>头文件中，作用简洁：在<code>bool</code>表达式返回<code>false</code>时，终止程序并弹出自己</p>
 <p>听起来很难懂？没关系，这里有个例子</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-61-1">1</a></span>
-<span class="normal"><a href="#__codelineno-61-2">2</a></span>
-<span class="normal"><a href="#__codelineno-61-3">3</a></span>
-<span class="normal"><a href="#__codelineno-61-4">4</a></span>
-<span class="normal"><a href="#__codelineno-61-5">5</a></span>
-<span class="normal"><a href="#__codelineno-61-6">6</a></span>
-<span class="normal"><a href="#__codelineno-61-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-61-1" name="__codelineno-61-1"></a>int getVal(size_t idx,vector&lt;int&gt;&amp; vec){
-<a id="__codelineno-61-2" name="__codelineno-61-2"></a>    assert(idx&lt;=vec.size()-1);//确保不越界
-<a id="__codelineno-61-3" name="__codelineno-61-3"></a>    return vec[idx];
-<a id="__codelineno-61-4" name="__codelineno-61-4"></a>}
-<a id="__codelineno-61-5" name="__codelineno-61-5"></a>
-<a id="__codelineno-61-6" name="__codelineno-61-6"></a>getVal(3,{1,2,3,4,5})//4
-<a id="__codelineno-61-7" name="__codelineno-61-7"></a>getVal(100,{1,2,3})//！触发assert
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-62-1">1</a></span>
+<span class="normal"><a href="#__codelineno-62-2">2</a></span>
+<span class="normal"><a href="#__codelineno-62-3">3</a></span>
+<span class="normal"><a href="#__codelineno-62-4">4</a></span>
+<span class="normal"><a href="#__codelineno-62-5">5</a></span>
+<span class="normal"><a href="#__codelineno-62-6">6</a></span>
+<span class="normal"><a href="#__codelineno-62-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-62-1" name="__codelineno-62-1"></a>int getVal(size_t idx,vector&lt;int&gt;&amp; vec){
+<a id="__codelineno-62-2" name="__codelineno-62-2"></a>    assert(idx&lt;=vec.size()-1);//确保不越界
+<a id="__codelineno-62-3" name="__codelineno-62-3"></a>    return vec[idx];
+<a id="__codelineno-62-4" name="__codelineno-62-4"></a>}
+<a id="__codelineno-62-5" name="__codelineno-62-5"></a>
+<a id="__codelineno-62-6" name="__codelineno-62-6"></a>getVal(3,{1,2,3,4,5})//4
+<a id="__codelineno-62-7" name="__codelineno-62-7"></a>getVal(100,{1,2,3})//！触发assert
 </code></pre></div></td></tr></table></div>
 <p><code>assert</code>触发以后，会打印一条类似的消息：</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-62-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-62-1" name="__codelineno-62-1"></a>Assertion failed: idx&lt;=vec.size()-1, file xxx.cpp, line xxx
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-63-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-63-1" name="__codelineno-63-1"></a>Assertion failed: idx&lt;=vec.size()-1, file xxx.cpp, line xxx
 </code></pre></div></td></tr></table></div>
 <p>很清晰，对吧？还会打印行数，能精准定位</p>
 <p>只是这玩意会触发<code>abort()</code>，如果你需要释放资源可能需要注意一下 <del>（不过我们打竞赛的有什么资源可以释放啊）</del></p>
@@ -6594,112 +6463,74 @@
 <p>信息三大标准宏</p>
 <p>顾名思义，<code>__LINE__</code>宏会被展开为当前行，<code>__FILE__</code>宏会被展开为当前文件，<code>__FUNCTION__</code>宏会被展开为当前函数</p>
 <p>于是我们可以：</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-63-1">1</a></span>
-<span class="normal"><a href="#__codelineno-63-2">2</a></span>
-<span class="normal"><a href="#__codelineno-63-3">3</a></span>
-<span class="normal"><a href="#__codelineno-63-4">4</a></span>
-<span class="normal"><a href="#__codelineno-63-5">5</a></span>
-<span class="normal"><a href="#__codelineno-63-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-63-1" name="__codelineno-63-1"></a>#ifdef DEBUG
-<a id="__codelineno-63-2" name="__codelineno-63-2"></a>#define LOG(msg) cerr&lt;&lt;&quot;line:&quot;&lt;&lt;__LINE__&lt;&lt;&quot;func:&quot;&lt;&lt;__FUNCTION__\
-<a id="__codelineno-63-3" name="__codelineno-63-3"></a>                     &lt;&lt;&quot;msg:&quot;&lt;&lt;msg&lt;&lt;endl
-<a id="__codelineno-63-4" name="__codelineno-63-4"></a>#else
-<a id="__codelineno-63-5" name="__codelineno-63-5"></a>#define LOG(msg) (void)0
-<a id="__codelineno-63-6" name="__codelineno-63-6"></a>#endif
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-64-1">1</a></span>
+<span class="normal"><a href="#__codelineno-64-2">2</a></span>
+<span class="normal"><a href="#__codelineno-64-3">3</a></span>
+<span class="normal"><a href="#__codelineno-64-4">4</a></span>
+<span class="normal"><a href="#__codelineno-64-5">5</a></span>
+<span class="normal"><a href="#__codelineno-64-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-64-1" name="__codelineno-64-1"></a>#ifdef DEBUG
+<a id="__codelineno-64-2" name="__codelineno-64-2"></a>#define LOG(msg) cerr&lt;&lt;&quot;line:&quot;&lt;&lt;__LINE__&lt;&lt;&quot;func:&quot;&lt;&lt;__FUNCTION__\
+<a id="__codelineno-64-3" name="__codelineno-64-3"></a>                     &lt;&lt;&quot;msg:&quot;&lt;&lt;msg&lt;&lt;endl
+<a id="__codelineno-64-4" name="__codelineno-64-4"></a>#else
+<a id="__codelineno-64-5" name="__codelineno-64-5"></a>#define LOG(msg) (void)0
+<a id="__codelineno-64-6" name="__codelineno-64-6"></a>#endif
 </code></pre></div></td></tr></table></div>
 <p>这样就可以做到零开销日志了，哦对了，别忘了调试结束的时候删掉<code>#define DEBUG</code></p>
 <hr />
 <h2 id="_51">附录：二分决策树选择最合适的容器<a class="headerlink" href="#_51" title="Permanent link">&para;</a></h2>
 <ul>
-<li>需要/不需要随机访问？</li>
-<li>
-<h2 id="_52">需要<a class="headerlink" href="#_52" title="Permanent link">&para;</a></h2>
-<h2 id="-">- 插入方式是尾部还是两端，或是随机？<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
-<h2 id="-_1">- 尾部<a class="headerlink" href="#-_1" title="Permanent link">&para;</a></h2>
-<p>-
-      - 需要清晰的接口？
--
--
-      - 需要
--
--
-      -
-              - <code>std::stack</code>
--
--
-      - 不需要
--
--
-      -
-              - <code>std::vector</code>
--
-- 两端
--
--
-      - <code>std::deque</code>
--
-- 随机
--
--
-      - 保证数据有序？
--
--
-      - 保证
--
--
-      -
-              - <code>std::map</code>（你别管是不是O(1)O(1)O(1)，你就说随没随机吧）
--
--
-      - 不保证
--
--
-      -
-              - <code>std::unordered_map</code></p>
-</li>
-<li>
-<h2 id="_53">不需要<a class="headerlink" href="#_53" title="Permanent link">&para;</a></h2>
-<h2 id="-lifo">- 插入方式是随机插入还是<code>LIFO</code>？<a class="headerlink" href="#-lifo" title="Permanent link">&para;</a></h2>
-<h2 id="-_2">- 随机<a class="headerlink" href="#-_2" title="Permanent link">&para;</a></h2>
-<p>-
-      - 插入时保证数据有序还是保持原顺序？
--
--
-      - 有序
--
--
-      -
-              - <code>std::set</code>
--
--
-      - 原顺序
--
--
-      -
-              - <code>std::list</code>
--
-- <code>LIFO</code>
--
--
-      - 需要何种特殊行为？
--
--
-      - 无
--
--
-      -
-              - <code>std::queue</code>
--
--
-      - 取最值
--
--
-      -
-              - <code>std::priority_queue</code></p>
+<li>需要/不需要随机访问？<ul>
+<li>需要<ul>
+<li>插入方式是尾部还是两端，或是随机？<ul>
+<li>尾部<ul>
+<li>需要清晰的接口？<ul>
+<li>需要 -&gt; <code>std::stack</code></li>
+<li>不需要 -&gt; <code>std::vector</code></li>
+</ul>
 </li>
 </ul>
-<p><del>吓哭了这里还有初中生物</del></p>
+</li>
+<li>两端 -&gt; <code>std::deque</code></li>
+<li>随机<ul>
+<li>保证数据有序？<ul>
+<li>保证 -&gt; <code>std::map</code>（你别管是不是O(1)，你就说随没随机吧）</li>
+<li>不保证 -&gt; <code>std::unordered_map</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>不需要<ul>
+<li>插入方式是随机插入还是LIFO？<ul>
+<li>随机<ul>
+<li>插入时保证数据有序还是保持原顺序？<ul>
+<li>有序 -&gt; <code>std::set</code></li>
+<li>原顺序 -&gt; <code>std::list</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>LIFO<ul>
+<li>需要何种特殊行为？<ul>
+<li>无 -&gt; <code>std::queue</code></li>
+</ul>
+</li>
+<li>取最值 -&gt; <code>std::priority_queue</code>
+<del>吓哭了这里还有初中生物</del></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <hr />
-<h2 id="_54">附录：常见的<sub>~升压</sub>~错误及原因<a class="headerlink" href="#_54" title="Permanent link">&para;</a></h2>
+<h2 id="_52">附录：常见的<sub>~升压</sub>~错误及原因<a class="headerlink" href="#_52" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
