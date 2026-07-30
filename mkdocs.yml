@@ -92,11 +92,17 @@ nav:
     - 分类: tags.md
   - OI:
     - OI/index.md
-    - 倍增: OI/multiply.md
+    - 基础算法:
+      - 倍增: OI/binary_lifting.md
     - 数据结构:
+      - OI/data_structures/index.md
       - 并查集 DSU: OI/data_structures/dsu.md
       - ST 表: OI/data_structures/sttable.md
-    - C++ STL 与现代特性指北: OI/cpp_stl_wzx.md
+    - 图论: 
+      - OI/graph/index.md
+      - 最小生成树: OI/graph/mst.md
+    - 其他:
+      - C++ STL 与现代特性指北: OI/cpp_stl_wzx.md
   - Blog:
     - index: blog/index.md
   - 其他:

@@ -1,9 +1,11 @@
 ---
-title: 并查集 DSU
 tags:
   - 数据结构
   - OI
 ---
+
+!!! note "查看更多相关内容"
+    - [OI Wiki](https://oi-wiki.org/ds/dsu/)
 
 ## 定义
 
