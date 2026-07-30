@@ -92,7 +92,10 @@ nav:
     - 分类: tags.md
   - OI:
     - OI/index.md
-    - 倍增 & ST表: OI/beizeng_STbiao.md
+    - 倍增: OI/multiply.md
+    - 数据结构:
+      - 并查集 DSU: OI/data_structures/dsu.md
+      - ST 表: OI/data_structures/sttable.md
     - C++ STL 与现代特性指北: OI/cpp_stl_wzx.md
   - Blog:
     - index: blog/index.md
