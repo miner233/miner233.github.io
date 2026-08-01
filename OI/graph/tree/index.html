@@ -21,7 +21,7 @@
     
     
       
-        <title>Index - miner233 的妙妙屋</title>
+        <title>树 - miner233 的妙妙屋</title>
       
     
     
@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              树
             
           </span>
         </div>
@@ -1265,6 +1270,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        定义
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性质
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        术语
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1315,9 +1363,40 @@
   
 
 
-  <h1>Index</h1>
-
-<p>树（tree）</p>
+<h1 id="_1">树<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">定义<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>树是特殊的图，是一种非线性的数据结构，是由 <code>n</code> 个结点（<code>n&gt;=0</code>）组成的有限集合。</p>
+<h2 id="_3">性质<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>当 <span class="arithmatex">\(n=0\)</span> 时，树为空树。</li>
+<li>对于非空树，有一个特定的结点，称为<strong><em>根节点 (树根 Root)</em></strong> 。</li>
+<li>根结点只用后继，没有前驱。</li>
+<li>边数=点数-1。</li>
+<li>树是无向无环的连通图。</li>
+<li>任意两个节点之间仅有一条简单路径。</li>
+<li>在树结构中，对于具有同一个根结点的各个子树，相互之间不能有交集。</li>
+</ul>
+<h2 id="_4">术语<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<ul>
+<li>结点：如 A, B, C</li>
+<li>根节点：如 A</li>
+<li>子树：树的子集，如 CG</li>
+<li>结点的度：结点拥有子树的数量，如 A的度是3</li>
+<li>树的度：所有结点度的最大值，本树的度是 3</li>
+<li>叶子结点（终端节点）：度为 0 的结点，如 KLFGMIJ。</li>
+<li>分支结点：度大于 0 的结点。</li>
+<li>祖先结点：从该节点到根，除其本身之外的结点。K 的祖先是 ABE。</li>
+<li>子孙结点：该结点子树包括的所有结点。D 的子孙是 HIJM。</li>
+<li>父亲结点：从该结点到根的第二个结点。C 是 G 的父亲结点。</li>
+<li>孩子结点：EF是 B 的孩子。</li>
+<li>兄弟结点：具有同一父结点的子结点互称兄弟。BCD 是兄弟。</li>
+<li>路径：由根到结点的路径。</li>
+<li>结点高度：结点到叶子结点的最长路径（边数）。</li>
+<li>结点深度：根节点到这个结点的边数。</li>
+<li>结点层数：结点深度+1</li>
+<li>树的高度：根节点点高度。</li>
+<li>树的宽度：某一层最多的结点数。</li>
+</ul>
 
 
 
