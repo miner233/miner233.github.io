@@ -107,4 +107,4 @@ nav:
     - index: blog/index.md
   - 其他:
     - others/index.md
-    - MkDocs: others/mkdocs.md
+    - 收录: others/b.md
