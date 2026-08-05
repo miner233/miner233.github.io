@@ -103,8 +103,8 @@ nav:
       - 最小生成树: OI/graph/mst.md
     - 其他:
       - C++ STL 与现代特性指北: OI/cpp_stl_wzx.md
+      - 收录: OI/achieve.md
   - Blog:
     - index: blog/index.md
   - 其他:
     - others/index.md
-    - 收录: others/b.md
