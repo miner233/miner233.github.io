@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # OI
 OI 相关的内容。
 

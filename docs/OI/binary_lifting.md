@@ -1,5 +1,6 @@
 ---
 tittle: 倍增
+comments: true
 tags:
   - OI
   - 数学思想

@@ -1,5 +1,6 @@
 ---
 title: 全能学神寒汐陈 - 完整版
+comments: true
 tags:
   - Blog
 ---

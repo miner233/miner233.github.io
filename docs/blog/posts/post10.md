@@ -5,6 +5,7 @@ tags:
   - Blog
 date: 2026-08-19   #时间
 draft: false   # 是否为草稿
+comments: true
 ---
 今天七夕，看点浪漫的：
 

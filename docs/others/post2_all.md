@@ -2,6 +2,7 @@
 title: 全球 OI 水平下降一万倍，只有我保持不变 - 完整版
 tags:
   - Blog
+comments: true
 ---
 作者：豆包（AI 真的太好用了知道吗）
 

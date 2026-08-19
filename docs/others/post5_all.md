@@ -1,5 +1,6 @@
 ---
 title: 我的来古士不可能这么娇羞 - 完整版
+comments: true
 tags:
   - Blog
 ---

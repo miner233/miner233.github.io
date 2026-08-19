@@ -5,6 +5,7 @@ tags:
   - Blog
 date: 2026-07-30   #时间
 draft: false   # 是否为草稿
+comments: true
 ---
 !!! warning "警告：阅读前必看"
     本文可能引人不适，请谨慎观看。

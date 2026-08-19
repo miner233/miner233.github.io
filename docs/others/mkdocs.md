@@ -1,5 +1,6 @@
 ---
 tittle: MkDocs
+comments: true
 ---
 ## 提示
 !!! note "提示"

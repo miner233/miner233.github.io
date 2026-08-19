@@ -5,6 +5,7 @@ tags:
   - Blog
 date: 2026-08-14   #时间
 draft: false   # 是否为草稿
+comments: true
 ---
 # 崩坏星穹铁道4.5版本「挥掷千星的筹码」前瞻总结
 

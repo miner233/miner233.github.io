@@ -5,6 +5,7 @@ tags:
   - Blog
 date: 2026-08-01   #时间
 draft: false   # 是否为草稿
+comments: true
 ---
 # 原神7.0版本「无神怜爱的雪国」前瞻直播总结
 

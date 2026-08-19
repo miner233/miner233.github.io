@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # 李昀乐 AK IOI
 作者：豆包（AI 真的太好用了知道吗）
 
