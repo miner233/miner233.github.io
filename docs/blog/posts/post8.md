@@ -2,10 +2,10 @@
 title: 李昀乐 AK IOI
 authors: [doubao]  #作者
 tags:
-  - Blog
+  - AI 文
+  - 发癫
 date: 2026-08-15   #时间
 draft: false   # 是否为草稿
-comments: true
 ---
 作者：豆包（AI 真的太好用了知道吗）
 

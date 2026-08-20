@@ -1,5 +1,7 @@
 ---
 comments: true
+tag:
+  - OI
 ---
 # OI
 OI 相关的内容。

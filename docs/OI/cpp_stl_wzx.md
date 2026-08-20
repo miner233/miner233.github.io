@@ -3,6 +3,7 @@ tittle: C++ STL 与现代特性指北
 comments: true
 tags:
   - OI
+  - 转载
 ---
 # C++ STL 与现代特性指北
 原作者：王泽溪（[GitHub](https://github.com/Z-Multiplier/)）

@@ -3,6 +3,7 @@ title: OI 不是人学的
 authors: [miner233]  #作者
 tags:
   - Blog
+  - 发癫
 date: 2026-08-20   #时间
 draft: false   # 是否为草稿
 comments: true

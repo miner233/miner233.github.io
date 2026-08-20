@@ -2,10 +2,10 @@
 title: 全球 OI 水平下降一万倍，只有我保持不变
 authors: [doubao]  #作者
 tags:
-  - Blog
+  - AI 文
+  - 发癫
 date: 2026-07-30   #时间
 draft: false   # 是否为草稿
-comments: true
 ---
 作者：豆包（AI 真的太好用了知道吗）
 

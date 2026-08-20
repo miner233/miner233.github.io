@@ -3,7 +3,7 @@ tittle: 倍增
 comments: true
 tags:
   - OI
-  - 数学思想
+  - 数学
 ---
 
 !!! note "查看更多相关内容"

@@ -1,8 +1,6 @@
 ---
 title: 我的来古士不可能这么娇羞 - 完整版
 comments: true
-tags:
-  - Blog
 ---
 !!! warning "警告：阅读前必看"
     本文可能引人不适，请谨慎观看。

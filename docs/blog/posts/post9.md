@@ -3,6 +3,7 @@ title: CSP 第一轮是恶心的
 authors: [miner233]  #作者
 tags:
   - Blog
+  - 发癫
 date: 2026-08-18   #时间
 draft: false   # 是否为草稿
 comments: true
